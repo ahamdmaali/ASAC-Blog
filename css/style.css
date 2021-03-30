@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+nav{
+    background-color: rgba(96, 96, 96,0.6);
+    margin-bottom: 30px;
+    height: 40px;
+}
+ ul li{
+    position: relative;
+    display:block;
+    float: right;
+    margin-right: 20px;
+    font-family: roboto;
+    color: white;
+   
+}
+nav h1{
+    text-align: center;
+    top:10px;
+    font-family: roboto;
+    color: white;
+}
+form{
+    background-color:  rgba(96, 96, 96,0.6);
+    position: absolute;
+    border: solid ;
+    border-radius: 8px;
+    width: 500px;
+    top: 60px;
+    left:60px;
+    top:120px;
+    font-family: roboto;
+}
+#content{
+    width: 300px;
+    height: 100px;
+}
+#showarticle{
+    background-color:rgba(96, 96, 96, 0.699) ;
+    position: relative;
+    width: 400px;
+    left:750px;
+    top:120px;
+    border: solid ;
+    border-radius: 8px;
+    font-family: roboto;
+}
