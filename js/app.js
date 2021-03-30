@@ -35,7 +35,11 @@ function formhandler(event){
    showarticle()
 }
  function randomnumber(min,max){
-     return Math.floor (max-min+1)-(min);
+     return Math.floor (max-min+1)+(min);
+ }
+ function loaddata(){
+     const getinfo=JSON.parse(localStorage.getItem('article'))
+     getinfo= new Article(getinfo);
  }
 function showarticle(){
     const articletitle=document.createElement('h3');
